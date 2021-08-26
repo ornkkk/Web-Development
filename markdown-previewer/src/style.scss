@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Russo+One');
+$backgroundBase: #aaa;
+
+*{
+  top: 0;
+  bottom: 0;
+}
+body {
+  //background: lighten($backgroundBase, 12%);
+  background-color: $backgroundBase;
+    margin-bottom: 2.5vh;
+}
+#editor-box{
+  //background-color: blue;
+  //height: 40vh;
+  margin-bottom: 2.5vh;
+  margin-top: 2.5vh;
+  padding:0;
+}
+#preview-box{
+  //background-color: red;
+  //height: 50vh;
+  margin-top: 7.5vh;
+  padding:0;
+}
+#preview{
+  overflow: scroll;
+  height:100%;
+  background-color: rgba(255,255,255,0.8);
+  color:black;
+  font-size: 13px;
+  
+}
+.title-bar{
+  display: flex;
+  background-color: rgba(0,0,0,0.5);
+  color: white;
+  height: 20px;
+  width: 100%;
+  padding-left: 5px;
+  padding-right: 5px;
+  justify-content: space-between;
+}
+#editor{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.8);
+  color:white;
+  font-size: 13px;
+  overflow: scroll;
+}
+#editor-panel{
+  height: 100%;
+  margin:0;
+  padding:0;
+  padding-bottom: 2.5vh;
+  margin-bottom: 2.5vh;
+
+  
+  //background: blue;
+}
+
+.max{
+  height:100vh;
+  position: fixed;
+  z-index: 2;
+}
+.min{
+  height:0vh;
+  position: fixed;
+  z-index: 1;
+ display: none;
+}
+.reg-e{
+  height: 40vh;
+  position: relative;
+}
+.reg-p{
+  height: 50vh;
+  position: relative;
+}
+
+i:hover{
+  color: black;
+}

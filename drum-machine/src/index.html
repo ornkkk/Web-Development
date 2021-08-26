@@ -1,0 +1,43 @@
+<div id="drum-machine" class="container">
+  <div class="row align-items-center">
+    <div id="keypad" class="col-6">
+      <div class="row justify-content-around align-items-center">
+        <button id="Q" class="btn btn-dark col-3 key"><p>Q</p></button>
+        <button id="W" class="btn btn-dark col-3 key"><p>W</p></button>
+        <button id="E" class="btn btn-dark col-3 key"><p>E</p></button>
+      </div>
+    <div class="row justify-content-around align-items-center">
+        <button id="A" class="btn btn-dark col-3 key"><p>A</p></button>
+        <button id="S" class="btn btn-dark col-3 key"><p>S</p></button>
+        <button id="D" class="btn btn-dark col-3 key"><p>D</p></button>
+      </div>
+    <div class="row justify-content-around align-items-center">
+        <button id="Z" class="btn btn-dark col-3 key"><p>Z</p></button>
+        <button id="X" class="btn btn-dark col-3 key"><p>X</p></button>
+        <button id="C" class="btn btn-dark col-3 key"><p>C</p></button>
+      </div>
+    </div>
+    <div id="control" class="col-6">
+      <div id="power">
+        <h4>Power</h4>
+        <label class="switch">
+          <input type="checkbox">
+          <span class="slider round"></span>
+        </label>
+      </div>
+      <div id="display" class="row justify-content-start">
+        <h4 class="text-center col-12">DISPLAY</h4>
+      </div>
+      <div class="volume-slider">
+						<input type="range" min="0" max="1" step="0.01" value={this.state.sliderVal} onChange={this.adjustVolume} />
+					</div>
+      <div id="bank">
+        <h4>Bank</h4>
+      <label class="switch">
+        <input type="checkbox">
+        <span class="slider round"></span>
+      </label>
+      </div>
+    </div>
+  </div>
+</div>

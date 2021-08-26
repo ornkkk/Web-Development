@@ -1,0 +1,127 @@
+body{
+    min-width:290px;
+    color: #4d4e53;
+    background-color: #ffffff;
+}
+#navbar{
+  position:fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 25%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  border-right:solid;
+  border-color:rgba(0,22,22,0.4);
+}
+
+#navbar header{
+  color:black;
+  font-size: 30px;
+  margin:10px;
+  text-align:center;
+  font-size:1.8em;
+  font-weight:thin;
+  margin: 0;
+  margin-top: auto;
+  width: 100%;
+  background-color:rgba(0,0,0,0.2);
+}
+
+#navlink a{
+  display: inline-block;
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+  text-align:center;
+  font-weight:thin;
+  width: 100%;
+  height: 25px;
+}
+
+#navlink hr{
+    display: inline-block;
+    width: 100%;
+    height: 1px;
+    border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+
+#navlink{
+  padding-bottom: 10px;
+  height: 88%;
+  overflow-y:auto;
+  overflow-x:auto;
+ }
+
+#main-doc{
+  position: fixed;
+  margin-left:25%;
+  padding: 20px;
+  margin-bottom:110px;
+  height: 88%;
+  overflow-y:auto;
+  overflow-x:hidden;
+}
+
+#main-doc header{
+  color:black;
+  font-size: 30px;
+  text-align:left;
+  margin:0px;
+  font-size:1.8em;
+  font-weight:thin;
+  text-decoration: underline;
+}
+section article{
+  color: #4d4e53;
+  margin:15px;
+  font-size:16px;
+}
+code{
+  display:block;
+  text-align: left;
+  white-space: pre;
+  word-break: normal;
+  word-wrap: normal;
+  line-height: 1.5;
+  background-color:#eee;
+  padding:15px;
+
+  margin:10px;
+  border-radius:5px;
+}
+
+@media (max-width: 600px){
+    #navbar{
+      background-color:white;
+      position:absolute;
+      padding:0;
+      margin: 0;
+      width:100%;
+      height: 50%;
+      max-height:275px;
+      border:none;
+      z-index:1;
+      border-bottom:2px solid;
+    }
+  #main-doc{
+    position: fixed;
+    margin-left:0px;
+    margin-top:270px;
+    width: 88%;
+    overflow-x:auto;
+  }
+  #main-doc section {
+/*     padding-top: 240px; */
+  }
+  
+  code{
+  padding:15px;
+  padding-right:500px;
+  margin:10px;
+  border-radius:5px;
+}
+}

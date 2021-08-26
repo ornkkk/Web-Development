@@ -1,0 +1,115 @@
+body {
+  background-color: #eee;
+  font-family: "Lato", sans-serif;
+}
+
+header {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 2px;
+  right: 2px;
+  height: 75px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: darkblue;
+  opacity: 0.8;
+}
+
+#header-img {
+  display: inline-block;
+  height: 75px;
+  width: auto;
+}
+
+#nav-bar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 50px 50px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+#nav-bar a:hover {
+  background: blue;
+  color: white;
+}
+
+#product-image {
+  display: flex;
+  justify-content: center;
+}
+
+#product-image img {
+  margin-top: 100px;
+  height: 450px;
+}
+
+h3 {
+  display: block;
+  text-decoration: underline;
+}
+
+#product-desc {
+  display: flex;
+  flex-direction: column;
+}
+
+#product-desc iframe {
+  align-self: center;
+}
+
+.price {
+  display: inline-block;
+  background-color: darkblue;
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: px;
+  padding-top: px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.price p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.price:hover {
+  background-color: skyblue;
+  color: black;
+}
+
+#product-order form {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+@media (max-width: 600px) {
+  #product-order form {
+    flex-wrap: wrap;
+  }
+}
+
+label {
+  margin-top: 50px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  color: brown;
+}
+
+input[type=email] {
+  margin-bottom: 10px;
+  font-size: 20px;
+  height: 30px;
+  width: 500px;
+  border-radius: 5px;
+  border: 1px solid #c0c0c0;
+}

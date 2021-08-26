@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Technical Documentation Page</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<body>
+<nav id="navbar">
+  <header><h3>C# Tutorial</h3></header>
+  <div id="navlink">
+    <hr style="margin-top: 0px;"><a class="nav-link" href="#Introduction" rel="internal">Introduction</a>
+    <hr><a class="nav-link" href="#Environment" rel="internal">Environment</a>
+    <hr><a class="nav-link" href="#Program_Structure" rel="internal">Program Structure</a>
+    <hr><a class="nav-link" href="#Basic_Syntax" rel="internal">Basic Syntax</a>
+    <hr><a class="nav-link" href="#Data_Types" rel="internal">Data Types</a>
+    <hr><a class="nav-link" href="#Type_Conversion" rel="internal">Type Conversion</a>
+    <hr><a class="nav-link" href="#Variables" rel="internal">Variables</a>
+    <hr><a class="nav-link" href="#Constants" rel="internal">Constants</a>
+    <hr><a class="nav-link" href="#Operators" rel="internal">Operators</a>
+    <hr><a class="nav-link" href="#Decision_Making" rel="internal">Decision Making</a>
+    <hr><a class="nav-link" href="#Loops" rel="internal">Loops</a>
+    <hr><a class="nav-link" href="#Encapsulation" rel="internal">Encapsulation</a>
+    <hr><a class="nav-link" href="#Methods" rel="internal">Methods</a>
+    <hr><a class="nav-link" href="#Nullables" rel="internal">Nullables</a>
+    <hr><a class="nav-link" href="#Arrays" rel="internal">Arrays</a>
+    <hr><a class="nav-link" href="#Strings" rel="internal">Strings</a>
+    <hr><a class="nav-link" href="#Structure" rel="internal">Structure</a>
+    <hr><a class="nav-link" href="#Enums" rel="internal">Enums</a>
+    <hr><a class="nav-link" href="#Classes" rel="internal">Classes</a>
+    <hr><a class="nav-link" href="#Inheritance" rel="internal">Inheritance</a>
+    <hr><a class="nav-link" href="#Polymorphism" rel="internal">Polymorphism</a>
+    <hr><a class="nav-link" href="#Operator_Overloading" rel="internal">Operator Overloading</a>
+    <hr><a class="nav-link" href="#Interfaces" rel="internal">Interfaces</a>
+    <hr><a class="nav-link" href="#Namespaces" rel="internal">Namespaces</a>
+    <hr><a class="nav-link" href="#Preprocessor_Directives" rel="internal">Preprocessor Directives</a>
+    <hr><a class="nav-link" href="#Regular_Expressions" rel="internal">Regular Expressions</a>
+    <hr><a class="nav-link" href="#Exception_Handling" rel="internal">Exception Handling</a>
+    <hr><a class="nav-link" href="#File_I/O" rel="internal">File I/O</a>
+    </div>
+</nav>
+
+<main id="main-doc">
+  <section class="main-section" id="Introduction">
+    <header>Introduction</header>
+    <article><p>C# is a modern, general-purpose, object-oriented programming language developed by Microsoft and approved by European Computer Manufacturers Association (ECMA) and International Standards Organization (ISO).</p>
+      <p>C# was developed by Anders Hejlsberg and his team during the development of .Net Framework.</p>
+      <p>C# is designed for Common Language Infrastructure (CLI), which consists of the executable code and runtime environment that allows use of various high-level languages on different computer platforms and architectures.</p>
+      <p>The following reasons make C# a widely used professional language −</p>
+      <ul>
+        <li>It is a modern, general-purpose programming language.</li>
+        <li>It is object oriented.</li>
+        <li>It is component oriented.</li>
+        <li>It is easy to learn.</li>
+        <li>It is a structured language.</li>
+        <li>It produces efficient programs.</li>
+        <li>It can be compiled on a variety of computer platforms.</li>
+        <li>It is a part of .Net Framework.</li></ul>
+      <h3>Strong Programming Features of C#</h3>
+      <p>Although C# constructs closely follow traditional high-level languages, C and C++ and being an object-oriented programming language. It has strong resemblance with Java, it has numerous strong programming features that make it endearing to a number of programmers worldwide.</p>
+      <p>Following is the list of few important features of C# −
+      <ul>
+        <li>Boolean Conditions</li>
+        <li>Automatic Garbage Collection</li>
+        <li>Standard Library</li>
+        <li>Assembly Versioning</li>
+        <li>Properties and Events</li>
+        <li>Delegates and Events Management</li>
+        <li>Easy-to-use Generics</li>
+        <li>Indexers</li>
+        <li>Conditional Compilation</li>
+        <li>Simple Multithreading</li>
+        <li>LINQ and Lambda Expressions</li>
+        <li>Integration with Windows</li>
+      </ul>
+    </article>
+  </section>
+  <section class="main-section" id="Environment">
+    <header>Environment</header>
+    <article><p>In this chapter, we will discuss the tools required for creating C# programming. We have already mentioned that C# is part of .Net framework and is used for writing .Net applications. Therefore, before discussing the available tools for running a C# program, let us understand how C# relates to the .Net framework.</p>
+      <h3>The .Net Framework</h3>
+      <p>The .Net framework is a revolutionary platform that helps you to write the following types of applications −</p>
+      <ul>
+        <li>Windows applications</li>
+        <li>Web applications</li>
+        <li>Web services</li>
+        </ul>
+      <p>The .Net framework applications are multi-platform applications. The framework has been designed in such a way that it can be used from any of the following languages: C#, C++, Visual Basic, Jscript, COBOL, etc. All these languages can access the framework as well as communicate with each other.</p>
+      <p>The .Net framework consists of an enormous library of codes used by the client languages such as C#. Following are some of the components of the .Net framework −</p>
+      <ul>
+<li>Common Language Runtime (CLR)</li>
+<li>The .Net Framework Class Library</li>
+<li>Common Language Specification</li>
+<li>Common Type System</li>
+<li>Metadata and Assemblies</li>
+<li>Windows Forms</li>
+<li>ASP.Net and ASP.Net AJAX</li>
+<li>ADO.Net</li>
+<li>Windows Workflow Foundation (WF)</li>
+<li>Windows Presentation Foundation</li>
+<li>Windows Communication Foundation (WCF)</li>
+<li>LINQ</li>
+        </ul>
+<h3>Integrated Development Environment (IDE) for C#</h3>
+<p>Microsoft provides the following development tools for C# programming −</p>
+<ul>
+<li>Visual Studio 2010 (VS)</li>
+<li>Visual C# 2010 Express (VCE)</li>
+<li>Visual Web Developer</li></ul>
+<p>The last two are freely available from Microsoft official website. Using these tools, you can write all kinds of C# programs from simple command-line applications to more complex applications. You can also write C# source code files using a basic text editor, like Notepad, and compile the code into assemblies using the command-line compiler, which is again a part of the .NET Framework.</p>
+<p>Visual C# Express and Visual Web Developer Express edition are trimmed down versions of Visual Studio and has the same appearance. They retain most features of Visual Studio. In this tutorial, we have used Visual C# 2010 Express.</p>
+<h3>Writing C# Programs on Linux or Mac OS</h3>
+<p>Although the.NET Framework runs on the Windows operating system, there are some alternative versions that work on other operating systems. Mono is an open-source version of the .NET Framework which includes a C# compiler and runs on several operating systems, including various flavors of Linux and Mac OS.</p>
+<p>The stated purpose of Mono is not only to be able to run Microsoft .NET applications cross-platform, but also to bring better development tools for Linux developers. Mono can be run on many operating systems including Android, BSD, iOS, Linux, OS X, Windows, Solaris, and UNIX.</p></article></section>
+  <section class="main-section" id="Program_Structure">
+    <header>Program Structure</header>
+    <article><p>Before we study basic building blocks of the C# programming language, let us look at a bare minimum C# program structure so that we can take it as a reference in upcoming chapters.</p>
+<h3>Creating Hello World Program</h3>
+<p>A C# program consists of the following parts −</p>
+<ul>
+<li>Namespace declaration</li>
+<li>A class</li>
+<li>Class methods</li>
+<li>Class attributes</li>
+<li>A Main method</li>
+<li>Statements and Expressions</li>
+<li>Comments</li>
+</ul>
+<p>Let us look at a simple code that prints the words "Hello World" −</p>
+<code>using System;
+namespace HelloWorldApplication {
+  class HelloWorld {
+    static void Main(string[] args) {
+      /* my first program in C# */
+      Console.WriteLine("Hello World");
+      Console.ReadKey();
+    }
+  }
+}</code>
+<p>When this code is compiled and executed, it produces the following result −</p>
+<code>Hello World</code>
+<p>Let us look at the various parts of the given program −</p>
+<ul>
+<li>The first line of the program using System; - the using keyword is used to include the System namespace in the program. A program generally has multiple using statements.</li>
+
+<li>The next line has the namespace declaration. A namespace is a collection of classes. The HelloWorldApplication namespace contains the class HelloWorld.</li>
+
+<li>The next line has a class declaration, the class HelloWorld contains the data and method definitions that your program uses. Classes generally contain multiple methods. Methods define the behavior of the class. However, the HelloWorld class has only one method Main.</li>
+
+<li>The next line defines the Main method, which is the entry point for all C# programs. The Main method states what the class does when executed.</li>
+
+<li>The next line /*...*/ is ignored by the compiler and it is put to add comments in the program.</li>
+
+<li>The Main method specifies its behavior with the statement Console.WriteLine("Hello World");</li>
+
+<li>WriteLine is a method of the Console class defined in the System namespace. This statement causes the message "Hello, World!" to be displayed on the screen.</li>
+
+<li>The last line Console.ReadKey(); is for the VS.NET Users. This makes the program wait for a key press and it prevents the screen from running and closing quickly when the program is launched from Visual Studio .NET.</li>
+</ul>
+      </article></section>
+  <section class="main-section" id="Basic_Syntax">
+    <header>Basic Syntax</header>
+    <article>
+      <p>C# is an object-oriented programming language. In Object-Oriented Programming methodology, a program consists of various objects that interact with each other by means of actions. The actions that an object may take are called methods. Objects of the same kind are said to have the same type or, are said to be in the same class.</p>
+
+<p>For example, let us consider a Rectangle object. It has attributes such as length and width. Depending upon the design, it may need ways for accepting the values of these attributes, calculating the area, and displaying details.</p>
+
+<p>Let us look at implementation of a Rectangle class and discuss C# basic syntax −</p>
+      <code>using System;
+
+namespace RectangleApplication {
+   class Rectangle {
+      
+      // member variables
+      double length;
+      double width;
+      
+      public void Acceptdetails() {
+         length = 4.5;    
+         width = 3.5;
+      }
+      public double GetArea() {
+         return length * width; 
+      }
+      public void Display() {
+         Console.WriteLine("Length: {0}", length);
+         Console.WriteLine("Width: {0}", width);
+         Console.WriteLine("Area: {0}", GetArea());
+      }
+   }
+   class ExecuteRectangle {
+      static void Main(string[] args) {
+         Rectangle r = new Rectangle();
+         r.Acceptdetails();
+         r.Display();
+         Console.ReadLine(); 
+      }
+   }
+}</code>
+      <p>When the above code is compiled and executed, it produces the following result −</p>
+
+<code>Length: 4.5
+Width: 3.5
+Area: 15.75</code>
+      <h3>The <em>using</em> Keyword</h3>
+<p>The first statement in any C# program is</p>
+<code>using System;</code>
+<p>The using keyword is used for including the namespaces in the program. A program can include multiple using statements.</p></article>
+ </section>
+    <section class="main-section" id="Data_Types">
+    <header>Data Types</header>
+    <article><p>To be added soon.</p></article>
+      </section>
+  <section class="main-section" id="Type_Conversion">
+    <header>Type Conversion</header>
+    <article><p>To be added soon.</p></article>
+      </section>
+  <section class="main-section" id="Variables">
+    <header>Variables</header>
+    <article><p>To be added soon.</p></article>
+      </section>
+  <section class="main-section" id="Constants">
+    <header>Constants</header>
+    <article><p>To be added soon.</p></article>
+      </section>
+  <section class="main-section" id="Operators">
+    <header>Operators</header>
+    <article><p>To be added soon.</p></article>
+      </section>
+  <section class="main-section" id="Decision_Making">
+    <header>Decision Making</header>
+    <article><p>To be added soon.</p></article>
+      </section>
+  <section class="main-section" id="Loops">
+    <header>Loops</header>
+    <article><p>To be added soon.</p></article>
+      </section>
+  <section class="main-section" id="Encapsulation">
+    <header>Encapsulation</header>
+    <article><p>To be added soon.</p></article>
+      </section>
+  <section class="main-section" id="Methods">
+    <header>Methods</header>
+    <article><p>To be added soon.</p></article>
+      </section>
+  <section class="main-section" id="Nullables">
+    <header>Nullables</header>
+    <article><p>To be added soon.</p></article>
+      </section>
+  <section class="main-section" id="Arrays">
+    <header>Arrays</header>
+    <article><p>To be added soon.</p></article>
+      </section>
+  <section class="main-section" id="Strings">
+    <header>Strings</header>
+    <article><p>To be added soon.</p></article>
+      </section>
+  <section class="main-section" id="Structure">
+    <header>Structure</header>
+    <article><p>To be added soon.</p></article>
+      </section>
+  <section class="main-section" id="Enums">
+    <header>Enums</header>
+    <article><p>To be added soon.</p></article>
+      </section>
+  <section class="main-section" id="Classes">
+    <header>Classes</header>
+    <article><p>To be added soon.</p></article>
+      </section>
+  <section class="main-section" id="Inheritance">
+    <header>Inheritance</header>
+    <article><p>To be added soon.</p></article>
+      </section>
+  <section class="main-section" id="Polymorphism">
+    <header>Polymorphism</header>
+    <article><p>To be added soon.</p></article>
+      </section>
+  <section class="main-section" id="Operator_Overloading">
+    <header>Operator Overloading</header>
+    <article><p>To be added soon.</p></article>
+      </section>
+  <section class="main-section" id="Interfaces">
+    <header>Interfaces</header>
+    <article><p>To be added soon.</p></article>
+      </section>
+  <section class="main-section" id="Namespaces">
+    <header>Namespaces</header>
+    <article><p>To be added soon.</p></article>
+      </section>
+  <section class="main-section" id="Preprocessor_Directives">
+    <header>Preprocessor Directives</header>
+    <article><p>To be added soon.</p></article>
+      </section>
+  <section class="main-section" id="Regular_Expressions">
+    <header>Regular Expressions</header>
+    <article><p>To be added soon.</p></article>
+      </section>
+  <section class="main-section" id="Exception_Handling">
+    <header>Exception Handling</header>
+    <article><p>To be added soon.</p></article>
+      </section>
+  <section class="main-section" id="File_I/O">
+    <header>File I/O</header>
+    <article><p>To be added soon.</p></article>
+      </section>
+</main>
+</body>
+<!-- partial -->
+  
+</body>
+</html>
